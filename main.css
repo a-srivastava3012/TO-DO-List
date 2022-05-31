@@ -1,0 +1,58 @@
+:root{
+    --dark:#374151;
+    --darker:#1F2937;
+    --darkest:#0A0E12;
+
+
+}
+html, body {
+    width: 50%;
+    background: paleturquoise;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    width: 360px;
+}
+#new-task-input {
+	flex: 1 1 0%;
+	background-color: var(--darker);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	color: #ffffff;
+	font-size: 1.25rem;
+}
+#new-text-input {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid beige;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid beige;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 25px;
+    color: beige;
+    background-color: var(--darkest);
+}
+.paragraph-styling {
+    margin-top: 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: var(--darker);
+    border-width: 0;
+    color: #ffffff;
+    border: 1px;
+    padding: 10px;
+}
+.to-dos {
+    margin-top: 25px;
+}
